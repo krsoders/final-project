@@ -1,99 +1,74 @@
-/* =======================================
-    style.css
-    use this file for your custom styles
-========================================== */
-
-/* use a box model that makes sense */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* set the default color, font-size, and line height */
-html {
-  color: #333;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/* make images and embedded media fluid */
-img,
-object {
-  max-width: 100%;
-}
-
-/* type hierarchy- change for your project */
-h1 {
-  font-size: 3em; /* 48px */
-}
-
-h2 {
-  font-size: 2.25em /* 36px */
-}
-
-h3 {
-  font-size: 1.75em /* 28px */
-}
-
-h4 {
-  font-size: 1.125em /*18px */
-}
-
-/* =======================================
-    author styles
-    place your custom styles below here
-========================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =======================================
-    helper classes
-    keep this at the bottom
-========================================== */
-
 /*
- * Clearfix: contain floats
- *
- * from HTML5 Boilerplate
- * shttps://github.com/h5bp/html5-boilerplate/blob/master/css/main.css
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
+Lavendar - #DBD2E3
+Steel Purple - #A9BBD3 
+good purple - #A4A3CD
+*/
 
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+header {color:silver;
+    width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+a {color: gray;}
+a:hover {
+	color:#A4A3CD ;
+	font-weight: bold;
+	text-decoration: none;
+}
+h1 {font-family: 'Handlee', cursive; color: gray;}
+h2{color: #CD601D;}
+h3{color:#CD601D;}
+body{font-family:'Handlee', cursive, "Times New Roman", serif;
+
+background-color: #414140; color: white; padding: 25px;  background-image: url(http://static.squarespace.com/static/52914768e4b09bd01793dddd/t/52ddbd4ee4b0a28390eb012f/1390263630763/Chevron-wallpaper-DL.jpg);}
+
+
+.site-footer a{
+font-size: 1em;
+color: gray;
+    text-decoration: none;
 }
 
-.clearfix:after {
-  clear: both;
+.site-footer a:hover{
+color:#A4A3CD ; text-decoration: underline;
 }
+
+
+
+    .main {
+        background-color:#C05D79 ;
+        width: 60%;
+        height: ;
+        float: left;
+        padding: 50px;
+        border: 5px solid #CD601D;
+        margin: 10px;
+        }
+    .sidebar {
+        background-color: #C05D79;
+        width: 20%;
+        height: 28.2em;
+        float: right;
+        padding: 40px;
+        border: 5px solid #CD601D;
+        margin: 10px
+        }
+
+
+
+.content-wrapper{
+        width: 10%;
+    padding:inherit;
+    margin: 0 auto;
+    padding-top: 100px;
+    }
+
+    .site-footer {
+        background-color: #DBD2E3;
+        text-align: center;
+        width: 98%;
+        height: auto;
+        display: inline-block;
