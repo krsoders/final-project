@@ -1,12 +1,8 @@
-/*
-Lavendar - #DBD2E3
-Steel Purple - #A9BBD3 
-good purple - #A4A3CD
-*/
+
 
 @import url(http://fonts.googleapis.com/css?family=Handlee);
 
-header {color:silver;
+header {color:black;
     width: 60%;
         margin-left: auto;
         margin-right: auto;
@@ -14,12 +10,12 @@ header {color:silver;
 }
 a {color: gray;}
 a:hover {
-	color:#A4A3CD ;
+	color:#faf31e ;
 	font-weight: bold;
 	text-decoration: none;
 }
-h1 {font-family: 'Handlee', cursive; color: gray;}
-h2{color: #CD601D;}
+h1 {font-family: 'Handlee', cursive; color: white;}
+h2{color: #ffa36b;}
 h3{color:#CD601D;}
 body{font-family:'Handlee', cursive, "Times New Roman", serif;
 
@@ -28,8 +24,10 @@ background-color: #414140; color: white; padding: 25px;  background-image: url(h
 
 .site-footer a{
 font-size: 1em;
-color: gray;
+color: white;
     text-decoration: none;
+
+
 }
 
 .site-footer a:hover{
@@ -39,16 +37,16 @@ color:#A4A3CD ; text-decoration: underline;
 
 
     .main {
-        background-color:#C05D79 ;
+        background-color:#AF0D5E ;
         width: 60%;
-        height: ;
+        height: 28.2em; 
         float: left;
-        padding: 50px;
+        padding: 40px;
         border: 5px solid #CD601D;
         margin: 10px;
         }
     .sidebar {
-        background-color: #C05D79;
+        background-color:#AF0D5E;
         width: 20%;
         height: 28.2em;
         float: right;
@@ -67,8 +65,10 @@ color:#A4A3CD ; text-decoration: underline;
     }
 
     .site-footer {
-        background-color: #DBD2E3;
+        background-color: #AF0D5E;
+        border: 5px solid #CD601D;
         text-align: center;
         width: 98%;
         height: auto;
         display: inline-block;
+        margin:10px;
