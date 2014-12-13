@@ -10,12 +10,13 @@ header {color:black;
         text-align: center;
 }
 
-h1 {font-family: 'Handlee', cursive; color: white;}
-h2{color: #ffa36b;}
-h3{color:#CD601D;}
-body{font-family:'Handlee', cursive, "Times New Roman", serif;
 
-background-color: #414140; color: white; padding: 25px;  background-image: url(http://static.squarespace.com/static/52914768e4b09bd01793dddd/t/52ddbd4ee4b0a28390eb012f/1390263630763/Chevron-wallpaper-DL.jpg);}
+body{
+
+background-color: #AF0D5E; padding: 25px;  background-image: url(http://static.squarespace.com/static/52914768e4b09bd01793dddd/t/52ddbd4ee4b0a28390eb012f/1390263630763/Chevron-wallpaper-DL.jpg); }
+
+body{font-family: Handlee, cursive, Verdana; }
+
 
 a:link {color: #AF0D5E;}
 a:hover {
@@ -23,40 +24,90 @@ a:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
-.site-footer a{
-font-size: 1em;
-color: white;
-    text-decoration: none;
-
-
-}
-
-.site-footer a:hover{
-color:#A4A3CD ; text-decoration: underline;
-}
 
 
 .container-fluid{background-color: #F4EBC3; border: 5px solid #CD601D; }
 
-
+.contact1{   background-color:#AF0D5E ;
+        width:auto;
+        height: 28.2em; 
+        padding-right: 150px;
+    padding-left: 150px;
+        border: 5px solid #CD601D;
+        margin: 10px;}
 
     .main {
         background-color:#AF0D5E ;
-        width: 60%;
-        height: 28.2em; 
+        width: 67%;
+        height: 58em; 
         float: left;
+        padding: 40px;
+        border: 5px solid #f4ebc3;
+        margin: 10px;
+        font-family: Handlee, cursive, Verdana;
+        color:#f4ebc3;
+            text-align:center;
+
+        }
+
+.main h1{color: #CD601D;}
+.main2 ul{list-style:inside;}
+.main ul{list-style:inside;}
+.main2 a{color:#AF0D5E;}
+.main2 h1{text-align: center;}
+.main2 h2{color:#AF0D5E;}
+   .main2 {
+        position: absolute;
+    left:25%;
+    right:50%;
+        background-color:#CD601D;
+        width:50%;
+        height: 65em;
+        padding: 40px;
+      
+        background-color:#f4ebc3 ; 
+        padding:20px;
+        border: 5px solid #AF0D5E;
+        margin: 10px;
+        font-family: Handlee, cursive, Verdana;
+        color:#CD601D;
+           
+    width:50em
+
+        }
+
+    .sidebar {
+        background-color:#CD601D;
+        width:30%;
+        height: 28.2em;
+        float: right;
+        padding: 20px;
+        border: 5px solid #AF0D5E ;
+        margin: 10px;
+        
+    color:  #f4ebc3;
+        }
+.sidebar2{ background-color:#f4ebc3 ;
+        width:30%;
+        height: 25.2em;
+        float: right;
         padding: 40px;
         border: 5px solid #CD601D;
         margin: 10px;
+    font-family: Handlee, Verdana, cursive;
+    color:#AF0D5E;
+    text-align: center;
         }
-    .sidebar {
-        background-color:#AF0D5E;
-        width: 20%;
+.sidebar3{ background-color:#f4ebc3 ;
+        width:30%;
         height: 28.2em;
         float: right;
         padding: 40px;
         border: 5px solid #CD601D;
-        margin: 10px
+        margin: 10px;
+    font-family: Handlee, Verdana, cursive;
+    color:#AF0D5E;
+    text-align: center;
         }
 
 .pic {background-color:#AF0D5E;
@@ -67,19 +118,37 @@ color:#A4A3CD ; text-decoration: underline;
         border: 5px solid #CD601D;
         margin: 10px;}
 
-.content-wrapper{
-        width: 10%;
-    padding:inherit;
-    margin: 0 auto;
-    padding-top: 100px;
-    }
+.sbar{
+    position: absolute;
+    left:25%;
+    right:50%;
+        background-color:#CD601D;
+        width:50%;
+        height: 21.2em;
+        padding: 40px;
+        border: 5px solid #AF0D5E ;
+        margin: 10px;
+    font-family: Handlee, cursive, Verdana;
+    text-align: center;
+        color:#f4ebc3;}
 
-    .site-footer {
-        background-color: #AF0D5E;
-        border: 5px solid #CD601D;
-        text-align: center;
-        width: 98%;
-        height: auto;
-        display: inline-block;
-        margin:10px;
-        
+.sbar h1{ color:#AF0D5E;}
+.sbar h2{ color:#f4ebc3;}
+.sbar2 li{text-align: left;}
+
+.sbar2{background-color:#AF0D5E;
+        width:40%;
+        height: 28.2em;
+        padding: 40px;
+        border: 5px solid #CD601D ;
+        margin: 10px;
+        color: #f4ebc3;
+ font-family: Handlee, cursive, Verdana;
+    text-align: center;}
+.sbar2 a{color:#CD601D;}
+
+    
+
+
+
+    
